@@ -4,7 +4,7 @@
 import numpy as np
 <br> import pandas as pd </br>
 import math
-<br> %matplotlib inline </br>
+<br> %matplotlib inline </br>**Inline function ensures that the graph is displayed inside the jupyter notebook**
 <!--- the inline keyword ensures that your graph gets displayed inside your jupyter notebook --->
 x=np.arange(0, math.pi*2, 0.05)
 <br> y=np.sine(x) </br>
