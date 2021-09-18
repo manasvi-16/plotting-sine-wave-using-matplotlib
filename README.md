@@ -1,13 +1,14 @@
 # plotting-sine-wave-using-matplotlib
-Here we are plotting a sine wave using matplotlib, Numpy and Pandas library of python
-from matplotlib import pyplot as plt
+<br> Here we are plotiing a sine wave using matplotlib, Numpy and Pandas library of python </br>
+<br> from matplotlib import pyplot as plt </br>
 import numpy as np
-import pandas as pd
+<br> import pandas as pd </br>
 import math
-%matplotlib inline
+<br> %matplotlib inline </br>
 x=np.arange(0, math.pi*2, 0.05)
-y=np.sine(x)
+<br> y=np.sine(x) </br>
 plt.plot(x,y)
-plt.xlabel('angle')
+<br> plt.xlabel('angle') </br>
 plt.ylabel('sine')
-plt.title('sine wave')
+<br> plt.title('sine wave') </br>
+
